@@ -1,16 +1,13 @@
-*{
-  background-color: white;
-}
 #design{
   margin: auto;
   background-color: #efefef;
+  padding: 1% 8% 2% 8%;
 }
-
-h2{
+#design h2{
   text-align: center;
   font-size:2rem;
 }
 
-p{
+#design p{
   text-align: center;
 }
