@@ -52,10 +52,6 @@ padding-right: 15%;
   color: #6c757d;
 }
 
-
-
-
-
 #design{
   margin: auto;
   background-color: #efefef;
@@ -68,4 +64,8 @@ padding-right: 15%;
 
 #design p{
   text-align: center;
+}
+
+.findmore{
+  margin: 2% 42% 2%;
 }
