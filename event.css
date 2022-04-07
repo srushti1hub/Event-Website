@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=PT+Serif:ital@1&family=Quintessential&display=swap');
+
+*{
+  font-family: 'Heebo', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-family: 'Quintessential', cursive;
+  background-color: white;
+  margin:0;
+padding:0;
+box-sizing: border-box;
+text-decoration: none;
+outline: none;
+border: none;
+}
+
+html{
+  font-size: 70%;
+  overflow-x: hidden;
+  scroll-padding-top: 5.5rem;
+  scroll-behavior: smooth;
+}
+header{
+ background-color: white;
+
+
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+.about{
+  padding-left: 15%;
+}
+.contact{
+padding-right: 15%;
+}
+.content{
+  font-size: 2rem;
+}
+
+
+
+
+
 #design{
   margin: auto;
   background-color: #efefef;
