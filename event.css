@@ -263,17 +263,18 @@ text-transform: uppercase;
 
 .reivew .box{
   border-radius: .5rem;
+  margin: 1rem;
   background: #333;
   padding:2rem;
   position: relative;
-  width: 25%;
+  width: 22%;
 }
 
 .reivew .box .fa-quote-right{
   position: absolute;
   top:2rem; right: 2rem;
   color:var(--main-color);
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 .reivew .box .user{
@@ -415,7 +416,7 @@ section{
   #menu-bars{
     display: initial;
   }
-  header .navbar{
+  .header .navbar{
   position: absolute;
    top:100%;
    left:0;
@@ -424,7 +425,7 @@ section{
   background: #333;
  
   }
-  header .navbar a{
+  .header .navbar a{
     display: flex;
     background: #222;
     border-radius: .5rem;
@@ -440,7 +441,7 @@ section{
   }
 }
 @media(max-width:450px){
-  html{
+  h tml{
     font-size: 50%;
   }
   .home .home-slider .swiper-slide{
