@@ -263,17 +263,18 @@ text-transform: uppercase;
 
 .reivew .box{
   border-radius: .5rem;
+  margin: 1rem;
   background: #333;
   padding:2rem;
   position: relative;
-  width: 25%;
+  width: 22%;
 }
 
 .reivew .box .fa-quote-right{
   position: absolute;
   top:2rem; right: 2rem;
   color:var(--main-color);
-  font-size: 5rem;
+  font-size: 2rem;
 }
 
 .reivew .box .user{
@@ -345,6 +346,58 @@ text-transform: uppercase;
 .contact form textarea{
 resize: none;
 }
+
+.contact .order a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer{
+  background:#111;
+}
+
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.5rem;
+  padding:1rem 0;
+  color:#fff;
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 1.5rem;
+  padding:1rem 0;
+  color:#eee;
+}
+
+.footer .box-container .box a i{
+  padding-right: .5rem;
+  color:var(--main-color);
+}
+
+.footer .box-container .box a:hover i{
+  padding-right: 1.5rem;
+  color:#fff;
+}
+
+.footer .credit{
+  text-align: center;
+  border-top: .1rem solid #222;
+  color:#fff;
+  padding:2rem;
+  padding-top: 2.5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.footer .credit span{
+  color:var(--main-color);
+}
 .theme-toggler{
   position:fixed;
   top:10rem;
@@ -415,7 +468,7 @@ section{
   #menu-bars{
     display: initial;
   }
-  header .navbar{
+  .header .navbar{
   position: absolute;
    top:100%;
    left:0;
@@ -424,7 +477,7 @@ section{
   background: #333;
  
   }
-  header .navbar a{
+  .header .navbar a{
     display: flex;
     background: #222;
     border-radius: .5rem;
@@ -440,7 +493,7 @@ section{
   }
 }
 @media(max-width:450px){
-  html{
+  h tml{
     font-size: 50%;
   }
   .home .home-slider .swiper-slide{
